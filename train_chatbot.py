@@ -15,7 +15,7 @@ words=[]
 classes = []
 documents = []
 ignore_words = ['?', '!']
-data_file = open('data/chatbot dataset/intents.json').read()
+data_file = open('data/intents.json').read()
 intents = json.loads(data_file)
 # print(intents)
 
